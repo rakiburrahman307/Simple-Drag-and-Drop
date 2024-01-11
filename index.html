@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Simple Drag And Drop</title>
+</head>
+
+<body>
+
+    <div>
+        <h2 class="text-3xl font-bold text-center text-accent py-5">Simple Drag And Drop Play It</h2>
+        <div class="flex flex-col md:flex-row justify-evenly gap-5 p-5 text-center">
+            <div class="h-96 w-1/4 bg-black text-center" id="div">
+                <p draggable="true" id="para1" class="text-xl font-bold text-white">hi im draping in the next div 1</p>
+                <p draggable="true" id="para2" class="text-xl font-bold text-white">hi im draping in the next div 2</p>
+                <p draggable="true" id="para3" class="text-xl font-bold text-white">hi im draping in the next div 3</p>
+                <p draggable="true" id="para4" class="text-xl font-bold text-white">hi im draping in the next div 4</p>
+                <p draggable="true" id="para5" class="text-xl font-bold text-white">hi im draping in the next div 5</p>
+                <p draggable="true" id="para6" class="text-xl font-bold text-white">hi im draping in the next div 6</p>
+            </div>
+            <div id="div1" class="h-96 w-1/4 bg-red-500"></div>
+            <div id="div2" class="h-100vh w-1/4 bg-yellow-500"></div>
+            <div id="div3" class="h-100vh w-1/4 bg-orange-500"></div>
+        </div>
+    </div>
+
+    <!-- javaScript Link File  -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
